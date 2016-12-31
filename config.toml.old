@@ -1,0 +1,35 @@
+languageCode = "en-us"
+baseurl = "http://vladvasiliu.com/"
+title = "vBlog"
+
+
+themesDir = "themes"
+theme = "cocoa-eh-hugo-theme"
+canonifyurls = true
+contentdir = "content"
+languageCode = "en-US"
+layoutdir = "layouts"
+publishdir = "public"
+
+disqusShortname = "vladvasiliu"
+#  googleAnalytics = ""
+
+
+[Author]
+    name = "Vlad Vasiliu"
+    # description = "muh description"
+    # bio = "Blogger - Programmer - Gopher"
+    # aboutAuthor = "I'm an enthusiastic gopher."
+
+    github = "vladvasiliu"
+    twitter = "vasiliu"
+
+#[[menu.main]]
+#    name = "Blog"
+#    url = "/"
+#    weight = 1
+
+#[[menu.main]]
+#    name = "About"
+#    url = "/page/about"
+#    weight = 2
