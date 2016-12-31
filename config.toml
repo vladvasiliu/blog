@@ -2,6 +2,7 @@ baseurl = "http://vladvasiliu.com/"
 title = "vBlog"
 #if not set copyright, default copyright template will be applied
 copyright = "Copyright © 2016 Vlad Vasiliu; all rights reserved."
+theme="nofancy"
 
 #[params]
 #    highlight="Assign a syntax highlight style"
