@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rabbitmq on vBlog</title>
+    <link>http://vladvasiliu.com/tags/rabbitmq/</link>
+    <description>Recent content in Rabbitmq on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 25 Apr 2014 11:42:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/rabbitmq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running rabbitmqctl as root</title>
+      <link>http://vladvasiliu.com/post/20140425-running_rabbitmqctl_as_root/</link>
+      <pubDate>Fri, 25 Apr 2014 11:42:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140425-running_rabbitmqctl_as_root/</guid>
+      <description>On some Linux distributions, running rabbitmqctl as root may fail with the following error:
+ Error: unable to connect to node rabbit@host: nodedown DIAGNOSTICS =========== attempted to contact: [rabbit@host] rabbit@host: * found rabbit (port 25672) * TCP connection succeeded * suggestion: hostname mismatch? * suggestion: is the cookie set correctly? current node details: - node name: rabbitmqctl19092@localhost - home dir: /root - cookie hash: B+onVMMDnR1uRT2nuD24VA==  Assuming that the hostname is correct and running rabbitmqctl as the rabbitmq user works, this is a cookie mismatch problem.</description>
+    </item>
+    
+  </channel>
+</rss>

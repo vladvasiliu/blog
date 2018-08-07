@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sysadmin on vBlog</title>
+    <link>http://vladvasiliu.com/tags/sysadmin/</link>
+    <description>Recent content in Sysadmin on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Aug 2013 21:11:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/sysadmin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Setting default NFSv4 ACLs on FreeBSD</title>
+      <link>http://vladvasiliu.com/post/2013-08-17_03-setting_default_nfsv4_acls_on_freebsd/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/2013-08-17_03-setting_default_nfsv4_acls_on_freebsd/</guid>
+      <description>On FreeBSD with ZFS, only NFSv4 ACLs are supported. At the time of this writing, the FreeBSD documentation regarding ACLs is a bit vague. Specifically, it doesn’t talk about inheritable attributes.
+The -d argument, used to define default POSIX ACLs is not supported. Instead, there are some flags one can set in order to define how ACLs are inherited. For an explanation, look in the manual for setfacl, section ACL inheritance flags.</description>
+    </item>
+    
+  </channel>
+</rss>

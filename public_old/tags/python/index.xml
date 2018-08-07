@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on vBlog</title>
+    <link>http://vladvasiliu.com/tags/python/</link>
+    <description>Recent content in Python on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Aug 2013 12:19:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building ZSH with zpython module on MacOS X</title>
+      <link>http://vladvasiliu.com/post/20130819-1218-zsh_with_python_module_on_mac_os_x/</link>
+      <pubDate>Mon, 19 Aug 2013 12:19:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20130819-1218-zsh_with_python_module_on_mac_os_x/</guid>
+      <description>There is a fork of ZSH that has a Python module. It is able to run Powerline smoothly.
+However, on MacOS X, it doesn&amp;rsquo;t correctly detect the Python libs upon compilation. There seems to be a similar problem for Vim with python support: http://stackoverflow.com/questions/6490513/vim-failing-to-compile-with-python-on-os-x
+The workaround is the same. Editing the Makefile in the config directory of the Python installation fixes this. The modification is PYTHONFRAMEWORKINSTALLDIR instead of PYTHONFRAMEWORKDIR on the line beginning with LINKFORSHARED</description>
+    </item>
+    
+  </channel>
+</rss>

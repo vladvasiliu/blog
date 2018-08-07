@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mysql on vBlog</title>
+    <link>http://vladvasiliu.com/tags/mysql/</link>
+    <description>Recent content in Mysql on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Aug 2013 21:05:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MySQL Replication - I/O Error Code 1045</title>
+      <link>http://vladvasiliu.com/post/2013-08-17_02-mysql_replication_io_error_code_1045/</link>
+      <pubDate>Sat, 17 Aug 2013 21:05:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/2013-08-17_02-mysql_replication_io_error_code_1045/</guid>
+      <description>Setting up replication on MySQL may yield the following error:
+[ERROR] Slave I/O: error connecting to master, Error code 1045  The MySQL troubleshooting page gives a few hints, talking about credentials for the replication user. However, attempting a connection via the command line client works, so the password is OK and the slave can reach the master. As it turns out, for replication purposes, the maximum password length is 32 characters.</description>
+    </item>
+    
+  </channel>
+</rss>

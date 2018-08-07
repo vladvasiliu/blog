@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vBlog</title>
+    <link>http://vladvasiliu.com/</link>
+    <description>Recent content on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 31 Dec 2016 12:02:49 +0100</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>http://vladvasiliu.com/about/</link>
+      <pubDate>Sat, 31 Dec 2016 12:02:49 +0100</pubDate>
+      
+      <guid>http://vladvasiliu.com/about/</guid>
+      <description>Hi I&amp;rsquo;m Vlad Vasiliu.
+I&amp;rsquo;m in charge of the network and systems infrastructure at Les Cinémas Gaumont Pathé in Paris, France.</description>
+    </item>
+    
+    <item>
+      <title>Using Python in SaltStack reactor</title>
+      <link>http://vladvasiliu.com/post/20161231-1210-using_python_in_saltstack_reactor/</link>
+      <pubDate>Sat, 31 Dec 2016 12:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20161231-1210-using_python_in_saltstack_reactor/</guid>
+      <description>Sometimes you need to do some complex actions in a Salt Reactor in which case Python comes in handy.
+The documentation is not very clear on how to write Python states. The main point is that Salt expects a structure that can be compiled to a Python dictionary. The run() function has to return a dictionary which resembles the state you would write with YAML.
+Here&amp;rsquo;s an example to add a domain to route 53:</description>
+    </item>
+    
+    <item>
+      <title>DHCP Option 121 in PFSense</title>
+      <link>http://vladvasiliu.com/post/20150311-2031_dhcp_option_121/</link>
+      <pubDate>Wed, 11 Mar 2015 20:32:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20150311-2031_dhcp_option_121/</guid>
+      <description>The DHCP Option 121 is described here: http://tools.ietf.org/html/rfc3442. It allows the DHCP server to send a classless route.
+In PFSense, one can add this option by setting the type to string. The catch is that the length is variable, according to the netmask length.
+For example, to add 10.0.0.0/8 via 10.100.5.1, the HEX is: 08:0A:0A:64:05:01</description>
+    </item>
+    
+    <item>
+      <title>Custom SSL certificate for iDrac 7 without CSR</title>
+      <link>http://vladvasiliu.com/post/20150204-1737-drac_custom_ssl_cert/</link>
+      <pubDate>Wed, 04 Feb 2015 17:38:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20150204-1737-drac_custom_ssl_cert/</guid>
+      <description>If you want to use the Dell iDrac with a certificate signed by your CA, the web gui allows you to create a CSR, and upload the signed certificate. But if for some reason you want to generate the certificate and key outside of iDrac, the gui doesn&amp;rsquo;t offer a way to upload the key.
+There is a way to use fully custom certificates, but it requires the racadm command line utility.</description>
+    </item>
+    
+    <item>
+      <title>Zone transfer setup for BIND with split horizon on the same zone</title>
+      <link>http://vladvasiliu.com/post/20141208-1007-bind_split_view_zone_synchronization/</link>
+      <pubDate>Mon, 08 Dec 2014 10:09:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20141208-1007-bind_split_view_zone_synchronization/</guid>
+      <description>With the default configuration, a zone transfer from a master to a slave of BIND with split horizon has the slave transfer only the view of that zone that is available to its IP address. The documentation is a bit vague on the subject, but it turns out it is possible for the slave to transfer the zone definitions corresponding to all (or a subset) of the views.
+The idea is to identify the slave for zone transfer purposes using something else that its IP address.</description>
+    </item>
+    
+    <item>
+      <title>How to transfer Duo Security installation to a new phone on Android</title>
+      <link>http://vladvasiliu.com/post/20140822-1428-backup-duo-security-android/</link>
+      <pubDate>Fri, 22 Aug 2014 14:31:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140822-1428-backup-duo-security-android/</guid>
+      <description>The Duo Security application can be used to generate one time passwords for online services, as an alternative to Google Authenticator.
+However, it does not offer a way to backup the configuration, so if for some reason it becomes unusable (say if your phone is stolen or broken) you will have to reinitialise all the accounts.
+There is however a way to get to this informaiton. It requires however the phone to be &amp;ldquo;rooted&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Establishing IPSec tunnel between Linux and Fortigate</title>
+      <link>http://vladvasiliu.com/post/20140619-1735-linux_to_fortigate_ipsec_tunnel/</link>
+      <pubDate>Thu, 19 Jun 2014 17:37:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140619-1735-linux_to_fortigate_ipsec_tunnel/</guid>
+      <description>Here is an example of a tunnel setup beetween Linux and Fortigate. It uses StrongSwan.
+conn myconn type=tunnel left=[local_ip_address] leftsubnet=[local_subnet_to_be_accessed_through_tunnel] right=[remote_ip_address] rightsubnet=[remote_subnet_to_be_accessed_through_tunnel] keyexchange=ike ikelifetime=28800s ike=aes256-sha1-modp1536 authby=secret keylife=1800s esp=aes256-sha1 auto=start  This configures the forwarding policy. If you want to access the remote end of the tunnel from the gateway, set up a virtual interface and configure it with an address within the local_subnet.</description>
+    </item>
+    
+    <item>
+      <title>IPv6 prefix delegation with static address and dhclient on Ubuntu / Debian</title>
+      <link>http://vladvasiliu.com/post/20140509-ipv6_prefix_delegation_with_dhclient_and_static_ip/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140509-ipv6_prefix_delegation_with_dhclient_and_static_ip/</guid>
+      <description>Some hosting providers, like Online in France provide IPv6 access via prefix delegation. You get a DUID that has to be sent to their DHCP server. The IP address is configured by the client.
+The recommended method is using Dibbler, but this solution is pretty buggy.
+On Ubuntu or Debian, you can use the provided dhclient to obtain the prefix delegation.
+Below are samples of dhclient6.conf and interfaces. Note that in this configuration everything is configured by the client, but you could request a name server from the DHCP server.</description>
+    </item>
+    
+    <item>
+      <title>IPv6 routing and router advertisments on Ubuntu / Debian</title>
+      <link>http://vladvasiliu.com/post/20140514-ipv6_routing_with_router_advertisment/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140514-ipv6_routing_with_router_advertisment/</guid>
+      <description>If your Linux box gets its IPv6 routing information via router advertisments, you may have noticed that upon enabling forwarding, it disregards those advertisments and it loses the configured gateways.
+The have this configuration working again, set accept_ra 2 in /etc/network/interfaces. This value is not documented in the interfaces manual, but since kernel version 2.6.37 it allows the interface to both do forwarding and accept router advertisments.
+Source</description>
+    </item>
+    
+    <item>
+      <title>Running rabbitmqctl as root</title>
+      <link>http://vladvasiliu.com/post/20140425-running_rabbitmqctl_as_root/</link>
+      <pubDate>Fri, 25 Apr 2014 11:42:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140425-running_rabbitmqctl_as_root/</guid>
+      <description>On some Linux distributions, running rabbitmqctl as root may fail with the following error:
+ Error: unable to connect to node rabbit@host: nodedown DIAGNOSTICS =========== attempted to contact: [rabbit@host] rabbit@host: * found rabbit (port 25672) * TCP connection succeeded * suggestion: hostname mismatch? * suggestion: is the cookie set correctly? current node details: - node name: rabbitmqctl19092@localhost - home dir: /root - cookie hash: B+onVMMDnR1uRT2nuD24VA==  Assuming that the hostname is correct and running rabbitmqctl as the rabbitmq user works, this is a cookie mismatch problem.</description>
+    </item>
+    
+    <item>
+      <title>Installing Powerline on Mac OS X</title>
+      <link>http://vladvasiliu.com/post/20130819-1225-powerline_on_mac_os_x/</link>
+      <pubDate>Mon, 19 Aug 2013 12:25:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20130819-1225-powerline_on_mac_os_x/</guid>
+      <description>While installing Powerline on MacOS X following the documentation, there are some import problems.
+It turns out that running python setup.py install installs everything into /path/to/site-packages/Powerline-beta-py2.7.egg/. This folder should be named powerline instead.
+Symlinking the included powerline folder to site-packages/powerline seems to fix this.</description>
+    </item>
+    
+    <item>
+      <title>Building ZSH with zpython module on MacOS X</title>
+      <link>http://vladvasiliu.com/post/20130819-1218-zsh_with_python_module_on_mac_os_x/</link>
+      <pubDate>Mon, 19 Aug 2013 12:19:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20130819-1218-zsh_with_python_module_on_mac_os_x/</guid>
+      <description>There is a fork of ZSH that has a Python module. It is able to run Powerline smoothly.
+However, on MacOS X, it doesn&amp;rsquo;t correctly detect the Python libs upon compilation. There seems to be a similar problem for Vim with python support: http://stackoverflow.com/questions/6490513/vim-failing-to-compile-with-python-on-os-x
+The workaround is the same. Editing the Makefile in the config directory of the Python installation fixes this. The modification is PYTHONFRAMEWORKINSTALLDIR instead of PYTHONFRAMEWORKDIR on the line beginning with LINKFORSHARED</description>
+    </item>
+    
+    <item>
+      <title>Setting default NFSv4 ACLs on FreeBSD</title>
+      <link>http://vladvasiliu.com/post/2013-08-17_03-setting_default_nfsv4_acls_on_freebsd/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/2013-08-17_03-setting_default_nfsv4_acls_on_freebsd/</guid>
+      <description>On FreeBSD with ZFS, only NFSv4 ACLs are supported. At the time of this writing, the FreeBSD documentation regarding ACLs is a bit vague. Specifically, it doesn’t talk about inheritable attributes.
+The -d argument, used to define default POSIX ACLs is not supported. Instead, there are some flags one can set in order to define how ACLs are inherited. For an explanation, look in the manual for setfacl, section ACL inheritance flags.</description>
+    </item>
+    
+    <item>
+      <title>MySQL Replication - I/O Error Code 1045</title>
+      <link>http://vladvasiliu.com/post/2013-08-17_02-mysql_replication_io_error_code_1045/</link>
+      <pubDate>Sat, 17 Aug 2013 21:05:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/2013-08-17_02-mysql_replication_io_error_code_1045/</guid>
+      <description>Setting up replication on MySQL may yield the following error:
+[ERROR] Slave I/O: error connecting to master, Error code 1045  The MySQL troubleshooting page gives a few hints, talking about credentials for the replication user. However, attempting a connection via the command line client works, so the password is OK and the slave can reach the master. As it turns out, for replication purposes, the maximum password length is 32 characters.</description>
+    </item>
+    
+  </channel>
+</rss>

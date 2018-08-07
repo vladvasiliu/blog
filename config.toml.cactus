@@ -1,0 +1,26 @@
+baseurl             = "http://vladvasiliu.com/"
+title               = "vBlog"
+languageCode        = "en"
+# author              = "Vlad Vasiliu"
+copyright           = "Copyright © 2018 Vlad Vasiliu; all rights reserved."
+
+theme               = "hugo-theme-cactus-plus"
+
+# [author]
+#     name = "Vlad Vasiliu"
+#     github = "vladvasiliu"
+#     linkedin = "vlad-vasiliu-460b2b18"
+#     #facebook = "ID"
+#     gaID = "YOUR Google Analytics Tracking ID"
+#     twitter = "vvasiliu"
+
+[params]
+    author                          = "Vlad Vasiliu"
+    enableToc                       = true
+
+    enableSummary                   = false
+    # Set the value to true if use description in post front matter replace content summary
+	useDescriptionReplaceSummary    = false
+
+    # Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"

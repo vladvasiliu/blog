@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Backup on vBlog</title>
+    <link>http://vladvasiliu.com/tags/backup/</link>
+    <description>Recent content in Backup on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 22 Aug 2014 14:31:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to transfer Duo Security installation to a new phone on Android</title>
+      <link>http://vladvasiliu.com/post/20140822-1428-backup-duo-security-android/</link>
+      <pubDate>Fri, 22 Aug 2014 14:31:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140822-1428-backup-duo-security-android/</guid>
+      <description>The Duo Security application can be used to generate one time passwords for online services, as an alternative to Google Authenticator.
+However, it does not offer a way to backup the configuration, so if for some reason it becomes unusable (say if your phone is stolen or broken) you will have to reinitialise all the accounts.
+There is however a way to get to this informaiton. It requires however the phone to be &amp;ldquo;rooted&amp;rdquo;.</description>
+    </item>
+    
+  </channel>
+</rss>

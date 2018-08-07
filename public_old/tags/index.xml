@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on vBlog</title>
+    <link>http://vladvasiliu.com/tags/</link>
+    <description>Recent content in Tags on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Sat, 17 Aug 2013 21:11:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Acl</title>
+      <link>http://vladvasiliu.com/tags/acl/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/acl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Android</title>
+      <link>http://vladvasiliu.com/tags/android/</link>
+      <pubDate>Fri, 22 Aug 2014 14:31:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Backup</title>
+      <link>http://vladvasiliu.com/tags/backup/</link>
+      <pubDate>Fri, 22 Aug 2014 14:31:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/backup/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bind</title>
+      <link>http://vladvasiliu.com/tags/bind/</link>
+      <pubDate>Mon, 08 Dec 2014 10:09:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/bind/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cert</title>
+      <link>http://vladvasiliu.com/tags/cert/</link>
+      <pubDate>Wed, 04 Feb 2015 17:38:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/cert/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dell</title>
+      <link>http://vladvasiliu.com/tags/dell/</link>
+      <pubDate>Wed, 04 Feb 2015 17:38:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/dell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dhcp</title>
+      <link>http://vladvasiliu.com/tags/dhcp/</link>
+      <pubDate>Wed, 11 Mar 2015 20:32:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/dhcp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dhcpv6</title>
+      <link>http://vladvasiliu.com/tags/dhcpv6/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/dhcpv6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dns</title>
+      <link>http://vladvasiliu.com/tags/dns/</link>
+      <pubDate>Mon, 08 Dec 2014 10:09:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/dns/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drac</title>
+      <link>http://vladvasiliu.com/tags/drac/</link>
+      <pubDate>Wed, 04 Feb 2015 17:38:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/drac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Freebsd</title>
+      <link>http://vladvasiliu.com/tags/freebsd/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/freebsd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipsec</title>
+      <link>http://vladvasiliu.com/tags/ipsec/</link>
+      <pubDate>Thu, 19 Jun 2014 17:37:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/ipsec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ipv6</title>
+      <link>http://vladvasiliu.com/tags/ipv6/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/ipv6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Macos X</title>
+      <link>http://vladvasiliu.com/tags/macos-x/</link>
+      <pubDate>Mon, 19 Aug 2013 12:25:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/macos-x/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mysql</title>
+      <link>http://vladvasiliu.com/tags/mysql/</link>
+      <pubDate>Sat, 17 Aug 2013 21:05:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Net</title>
+      <link>http://vladvasiliu.com/tags/net/</link>
+      <pubDate>Wed, 11 Mar 2015 20:32:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/net/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pfsense</title>
+      <link>http://vladvasiliu.com/tags/pfsense/</link>
+      <pubDate>Wed, 11 Mar 2015 20:32:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/pfsense/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Powerline</title>
+      <link>http://vladvasiliu.com/tags/powerline/</link>
+      <pubDate>Mon, 19 Aug 2013 12:25:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/powerline/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://vladvasiliu.com/tags/python/</link>
+      <pubDate>Mon, 19 Aug 2013 12:19:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rabbitmq</title>
+      <link>http://vladvasiliu.com/tags/rabbitmq/</link>
+      <pubDate>Fri, 25 Apr 2014 11:42:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/rabbitmq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Salt</title>
+      <link>http://vladvasiliu.com/tags/salt/</link>
+      <pubDate>Sat, 31 Dec 2016 12:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/salt/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ssl</title>
+      <link>http://vladvasiliu.com/tags/ssl/</link>
+      <pubDate>Wed, 04 Feb 2015 17:38:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sys</title>
+      <link>http://vladvasiliu.com/tags/sys/</link>
+      <pubDate>Sat, 31 Dec 2016 12:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/sys/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sysadmin</title>
+      <link>http://vladvasiliu.com/tags/sysadmin/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/sysadmin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tunneling</title>
+      <link>http://vladvasiliu.com/tags/tunneling/</link>
+      <pubDate>Thu, 19 Jun 2014 17:37:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/tunneling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vpn</title>
+      <link>http://vladvasiliu.com/tags/vpn/</link>
+      <pubDate>Thu, 19 Jun 2014 17:37:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zfs</title>
+      <link>http://vladvasiliu.com/tags/zfs/</link>
+      <pubDate>Sat, 17 Aug 2013 21:11:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/zfs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>http://vladvasiliu.com/tags/zsh/</link>
+      <pubDate>Mon, 19 Aug 2013 12:19:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/tags/zsh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

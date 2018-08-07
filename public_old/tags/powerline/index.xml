@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Powerline on vBlog</title>
+    <link>http://vladvasiliu.com/tags/powerline/</link>
+    <description>Recent content in Powerline on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 19 Aug 2013 12:25:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/powerline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Installing Powerline on Mac OS X</title>
+      <link>http://vladvasiliu.com/post/20130819-1225-powerline_on_mac_os_x/</link>
+      <pubDate>Mon, 19 Aug 2013 12:25:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20130819-1225-powerline_on_mac_os_x/</guid>
+      <description>While installing Powerline on MacOS X following the documentation, there are some import problems.
+It turns out that running python setup.py install installs everything into /path/to/site-packages/Powerline-beta-py2.7.egg/. This folder should be named powerline instead.
+Symlinking the included powerline folder to site-packages/powerline seems to fix this.</description>
+    </item>
+    
+  </channel>
+</rss>

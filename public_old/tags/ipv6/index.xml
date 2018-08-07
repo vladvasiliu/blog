@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ipv6 on vBlog</title>
+    <link>http://vladvasiliu.com/tags/ipv6/</link>
+    <description>Recent content in Ipv6 on vBlog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2018 Vlad Vasiliu; all rights reserved.</copyright>
+    <lastBuildDate>Fri, 09 May 2014 10:47:00 +0200</lastBuildDate>
+    
+	<atom:link href="http://vladvasiliu.com/tags/ipv6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IPv6 prefix delegation with static address and dhclient on Ubuntu / Debian</title>
+      <link>http://vladvasiliu.com/post/20140509-ipv6_prefix_delegation_with_dhclient_and_static_ip/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140509-ipv6_prefix_delegation_with_dhclient_and_static_ip/</guid>
+      <description>Some hosting providers, like Online in France provide IPv6 access via prefix delegation. You get a DUID that has to be sent to their DHCP server. The IP address is configured by the client.
+The recommended method is using Dibbler, but this solution is pretty buggy.
+On Ubuntu or Debian, you can use the provided dhclient to obtain the prefix delegation.
+Below are samples of dhclient6.conf and interfaces. Note that in this configuration everything is configured by the client, but you could request a name server from the DHCP server.</description>
+    </item>
+    
+    <item>
+      <title>IPv6 routing and router advertisments on Ubuntu / Debian</title>
+      <link>http://vladvasiliu.com/post/20140514-ipv6_routing_with_router_advertisment/</link>
+      <pubDate>Fri, 09 May 2014 10:47:00 +0200</pubDate>
+      
+      <guid>http://vladvasiliu.com/post/20140514-ipv6_routing_with_router_advertisment/</guid>
+      <description>If your Linux box gets its IPv6 routing information via router advertisments, you may have noticed that upon enabling forwarding, it disregards those advertisments and it loses the configured gateways.
+The have this configuration working again, set accept_ra 2 in /etc/network/interfaces. This value is not documented in the interfaces manual, but since kernel version 2.6.37 it allows the interface to both do forwarding and accept router advertisments.
+Source</description>
+    </item>
+    
+  </channel>
+</rss>
