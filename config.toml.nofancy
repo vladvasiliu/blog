@@ -1,4 +1,4 @@
-baseURL             = "http://vladvasiliu.com/"
+baseURL             = "https://vladvasiliu.com/"
 title               = "vBlog"
 # author              = "Vlad Vasiliu"
 copyright           = "Copyright © 2018 Vlad Vasiliu; all rights reserved."
@@ -10,7 +10,7 @@ theme               = "nofancy"
     github = "vladvasiliu"
     linkedin = "vlad-vasiliu-460b2b18"
     #facebook = "ID"
-    gaID = "YOUR Google Analytics Tracking ID"
+    gaID = "UA-37751901-1"
     twitter = "vvasiliu"
 
 [params]

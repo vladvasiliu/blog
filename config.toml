@@ -1,24 +1,89 @@
-baseURL             = "http://vladvasiliu.com/"
-title               = "vBlog"
+baseURL = "https://vladvasiliu.com/"
+title = "vBlog"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableRobotsTXT = true
+enableEmoji = true
 # author              = "Vlad Vasiliu"
-copyright           = "Copyright © 2018 Vlad Vasiliu; all rights reserved."
+# copyright = "Copyright © 2018 Vlad Vasiliu; all rights reserved."
 
-theme               = "nofancy"
+theme               = "even"
+
+preserveTaxonomyNames = true
+paginate = 5
+
+disqusShortname = "vladvasiliu"
+googleAnalytics = "UA-37751901-1"
 
 [author]
     name = "Vlad Vasiliu"
-    github = "vladvasiliu"
-    linkedin = "vlad-vasiliu-460b2b18"
-    #facebook = "ID"
-    gaID = "YOUR Google Analytics Tracking ID"
-    twitter = "vvasiliu"
+
+[sitemap]                 # essential                     # 必需
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
 
 [params]
-	# See themes/nofancy/static/highlight/styles for available options
-	# i.e. "default", "github", "monokai".
-	highlight = "zenburn"
+    version = "3.x"
+	since = 2013
+    logoTitle = "vBlog"
+    # description = ""
 
-	# Controls what items are listed in the top nav menu
-	# "none", or "categories"
-	# If you have too many categories to fit in the top nav menu, set this to "none"
-	topmenu="none"
+    archivePaginate = 5
+    showArchiveCount = true
+
+    dateFormatToUse = "2006-01-02"
+
+    moreMeta = true
+
+    toc = true
+    autoCollapseToc = false
+    fancybox = true
+    mathjax = false
+    mathjaxEnableSingleDollar = false
+    mathjaxEnableAutoNumber = false
+
+    postMetaInFooter = true
+    linkToMarkDown = false
+    contentCopyright = ''
+
+[params.outdatedInfoWarning]
+    enable = true
+    hint = 180              # Display hint if the last modified time is more than these days ago.
+    warn = 365              # Display warning if the last modified time is more than these days ago.
+
+[params.social]                                         # 社交链接
+#    a-email = "mailto:your@email.com"
+    b-stack-overflow = "https://stackoverflow.com/users/837862/"
+    c-twitter = "https://twitter.com/vvasiliu"
+#    d-facebook = "http://localhost:1313"
+    e-linkedin = "https://www.linkedin.com/in/vlad-vasiliu-460b2b18"
+#    f-google = "http://localhost:1313"
+    g-github = "https://github.com/vladvasiliu"
+#    h-weibo = "http://localhost:1313"
+#    i-zhihu = "http://localhost:1313"
+#    j-douban = "http://localhost:1313"
+#    k-pocket = "http://localhost:1313"
+#    l-tumblr = "http://localhost:1313"
+#    m-instagram = "http://localhost:1313"
+
+[[menu.main]]             # config your menu              # 配置目录
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Archives"
+  weight = 20
+  identifier = "archives"
+  url = "/post/"
+[[menu.main]]
+  name = "Tags"
+  weight = 30
+  identifier = "tags"
+  url = "/tags/"
+[[menu.main]]
+  name = "Categories"
+  weight = 40
+  identifier = "categories"
+  url = "/categories/"

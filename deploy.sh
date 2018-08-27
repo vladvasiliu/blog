@@ -2,6 +2,9 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+# Copy the CNAME file
+cp CNAME public/CNAME
+
 # Build the project.
 ~/.bin/hugo # if using a theme, replace by `hugo -t <yourtheme>`
 
