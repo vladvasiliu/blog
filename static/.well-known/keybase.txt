@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/vvlad
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://vladvasiliu.com
+  * I am vvlad (https://keybase.io/vvlad) on keybase.
+  * I have a public key ASAuRlcuMB2KfrzQ8P1E2VU35F5iu02E4uP65L741GkrOQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01202e46572e301d8a7ebcd0f0fd44d95537e45e62bb4d84e2e3fae4bef8d4692b390a",
+      "host": "keybase.io",
+      "kid": "01202e46572e301d8a7ebcd0f0fd44d95537e45e62bb4d84e2e3fae4bef8d4692b390a",
+      "uid": "db00c1dd7b0f8ac8f76c425018bee100",
+      "username": "vvlad"
+    },
+    "merkle_root": {
+      "ctime": 1568535334,
+      "hash": "9ac47393c29fcce1782e36543a6650a9d5948376f735a0a62029ab78fdb0b84ef0f9a1d8afaace0d7039e0331806c31afc87df389d1bf251c673f7187782ea6c",
+      "hash_meta": "f5417bfaf2f65471d4931c7a0d3d2df3ef67d9c31d40f96f8482f481e91bf2a9",
+      "seqno": 7378866
+    },
+    "service": {
+      "entropy": "yUnqjfv8VtNNH7v6hwrPJaFG",
+      "hostname": "vladvasiliu.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.2"
+  },
+  "ctime": 1568535389,
+  "expire_in": 504576000,
+  "prev": "c165eb565f1eec672ef50a533648039944bde3c81e643e2802dc28809519a28e",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgLkZXLjAdin680PD9RNlVN+ReYrtNhOLj+uS++NRpKzkKp3BheWxvYWTESpcCF8QgwWXrVl8e7Gcu9QpTNkgDmUS948geZD4oAtwogJUZoo7EIMTEP3om7vYpzo4vo8ncw1s1UX2WgfBXokc5PIDzdGpbAgHCo3NpZ8RAeGCazDBGNERuF5lkeNl8wF8b9dWuhb5KTpoyWDvIHiVlVkpZ6L0UwKuaQfJH39SPngC8zJK6Co3MbCCatf4WC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEILsgNl17uE1Z85UgdEyJcz/IClve1cBemBcrSVbvMYA5o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vvlad
+
+==================================================================
