@@ -46,6 +46,16 @@ url = "/about"
 weight = 3
 
 [[params.social]]
-name = "Github"
-icon = "fab fa-github"
-url = "https://github.com/vladvasiliu"
+  name = "Github"
+  icon = "fab fa-github"
+  url = "https://github.com/vladvasiliu"
+
+[[params.social]]
+  name = "BeHance"
+  icon = "fab fa-behance-square"
+  url = "https://www.behance.net/vvasiliu"
+
+[[params.social]]
+  name = "Portfolio"
+  icon = "fas fa-camera"
+  url = "https://photo.vladvasiliu.com"
