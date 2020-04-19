@@ -23,7 +23,7 @@ googleAnalytics = "UA-37751901-1"
 	subtitle = "Useful tips and snippets"
 
 	# Optional 80x80 avatar image.
-	# avatar = "/img/vitae.jpg"
+	avatar = "/img/avatar.png"
 
 	# Content types to disable Disqus on.
 	disableDisqusTypes = ["page"]
