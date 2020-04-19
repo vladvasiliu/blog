@@ -1,0 +1,35 @@
+baseURL = "https://vladvasiliu.com/"
+title = "vBlog"
+theme = "hugo-notepadium"
+copyright = "© 2020 Vlad Vasiliu"
+languageCode = "en"
+
+hasCJKLanguage = false
+enableRobotsTXT = true
+
+disqusShortname = "vladvasiliu"
+googleAnalytics = "UA-37751901-1"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[params]
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+dateFormat = "Monday, January 2, 2006"
+
+[params.comments]
+enable = true
+
+[params.syntax]
+use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
+theme = "xcode"
+darkTheme = "xcode-dark"
+
+
+[params.nav]
+showCategories = false       # /categories/
+
+[[params.nav.custom]]
+title = "About"
+url = "/about"

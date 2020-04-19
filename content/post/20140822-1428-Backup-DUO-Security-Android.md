@@ -2,6 +2,7 @@
 title = "How to transfer Duo Security installation to a new phone on Android"
 date = "2014-08-22T14:31:00+02:00"
 tags = ["Android", "Backup"]
+description = ""
 +++
 
 The Duo Security application can be used to generate one time passwords for

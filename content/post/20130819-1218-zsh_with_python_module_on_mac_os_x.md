@@ -2,6 +2,7 @@
 title = "Building ZSH with zpython module on MacOS X"
 date = "2013-08-19T12:19:00+02:00"
 tags = ["MacOS X", "ZSH", "Python"]
+description = ""
 +++
 
 There is a fork of ZSH that has a Python module. It is able to run [Powerline](https://github.com/Lokaltog/powerline) smoothly.

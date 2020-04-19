@@ -2,10 +2,13 @@
 title = "IPv6 prefix delegation on FreeBSD router"
 date = "2018-08-27T09:22:00+02:00"
 tags = ["sys", "bsd", "freebsd", "ipv6", "dhcp", "dhcpv6", "pd", "prefix delegation", "sfr", "routing", "SLAAC"]
+description = ""
 +++
 
 # Goal
-I'm attempting to set up a router box in to replace my SFR router on a home network. As my SFR plan has native IPv6, this box will request a prefix delegation and set up IPv6 routing for the computers on the home network. It will also handle NAT for IPv4.
+I'm attempting to set up a router box in order to replace my SFR router on a home network.
+As my SFR plan has native IPv6, this box will request a prefix delegation and set up IPv6 routing for the computers on the home network.
+It will also handle NAT for IPv4.
 
 This is supposed to be a drop-in replacement for the SFR provided box, so it will have to:
 

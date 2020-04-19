@@ -1,6 +1,6 @@
 baseURL = "https://vladvasiliu.com/"
 title = "vBlog"
-theme = "hugo-notepadium"
+theme = "hugo-vitae"
 copyright = "© 2020 Vlad Vasiliu"
 languageCode = "en"
 
@@ -10,26 +10,42 @@ enableRobotsTXT = true
 disqusShortname = "vladvasiliu"
 googleAnalytics = "UA-37751901-1"
 
-[markup.highlight]
-codeFences = true
-noClasses = false
+[markup]
+  [markup.highlight]
+    codeFences = true
+    noClasses = true
+    guessSyntax = true
+    lineNos = true
+    lineNumbersInTable = true
+    style = "manni"
 
 [params]
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "Monday, January 2, 2006"
+	subtitle = "Useful tips and snippets"
 
-[params.comments]
-enable = true
+	# Optional 80x80 avatar image.
+	# avatar = "/img/vitae.jpg"
 
-[params.syntax]
-use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "xcode"
-darkTheme = "xcode-dark"
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
 
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 
-[params.nav]
-showCategories = false       # /categories/
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
 
-[[params.nav.custom]]
-title = "About"
+[[menu.main]]
+name = "All posts"
+url = "/post"
+weight = 2
+
+[[menu.main]]
+name = "About"
 url = "/about"
+weight = 3
+
+[[params.social]]
+name = "Github"
+icon = "fab fa-github"
+url = "https://github.com/vladvasiliu"

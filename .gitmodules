@@ -10,3 +10,7 @@
 	path = themes/hugo-notepadium
 	url = https://github.com/cntrump/hugo-notepadium.git
 	branch = master
+[submodule "themes/hugo-vitae"]
+	path = themes/hugo-vitae
+	url = https://github.com/datacobra/hugo-vitae.git
+	branch = redesign

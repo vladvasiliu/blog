@@ -2,6 +2,7 @@
 title = "Running rabbitmqctl as root"
 date = "2014-04-25T11:42:00+02:00"
 tags = ["RabbitMQ"]
+description = ""
 +++
 
 On some Linux distributions, running `rabbitmqctl` as root may fail with the following error:

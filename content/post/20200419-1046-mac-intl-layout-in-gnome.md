@@ -4,7 +4,7 @@ date: 2020-04-19T10:50:52+02:00
 lastmod: 2020-04-19T10:50:52+02:00
 draft: false
 keywords: [xkbd]
-description: ""
+description: "How to setup ISO Level 3 to any modifier"
 tags: [xkbd, gnome, ubuntu]
 categories: []
 author: "Vlad Vasiliu"

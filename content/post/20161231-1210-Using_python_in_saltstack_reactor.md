@@ -2,6 +2,7 @@
 title = "Using Python in SaltStack reactor"
 date = "2016-12-31T12:11:00+02:00"
 tags = ["Sys", "salt"]
+description = ""
 +++
 
 Sometimes you need to do some complex actions in a Salt Reactor in which case Python comes in handy.

@@ -2,6 +2,7 @@
 title = "Custom SSL certificate for iDrac 7 without CSR"
 date = "2015-02-04T17:38:00+02:00"
 tags = ["Dell", "drac", "cert", "ssl"]
+description = ""
 +++
 
 If you want to use the Dell iDrac with a certificate signed by your CA, the web gui allows you to create a CSR, and upload the signed certificate. But if for some reason you want to generate the certificate and key outside of iDrac, the gui doesn't offer a way to upload the key.

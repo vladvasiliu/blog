@@ -2,6 +2,7 @@
 title = "Setting default NFSv4 ACLs on FreeBSD"
 date = "2013-08-17T21:11:00+02:00"
 tags = ["FreeBSD", "ZFS", "ACL", "sysadmin"]
+description = ""
 +++
 
 On FreeBSD with ZFS, only NFSv4 ACLs are supported. At the time of this writing, the [FreeBSD documentation regarding ACLs](https://wiki.freebsd.org/NFSv4_ACLs) is a bit vague. Specifically, it doesn’t talk about inheritable attributes.
