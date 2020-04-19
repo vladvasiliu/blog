@@ -1,10 +1,9 @@
 +++
-date = "2016-12-31T12:02:49+01:00"
-title = "about"
+title = "About"
 
 +++
 
-# Hi
-I'm Vlad Vasiliu.
+# Hi!
+My name is Vlad Vasiliu.
 
-I'm in charge of the network and systems infrastructure at Les Cinémas Gaumont Pathé in Paris, France.
+I'm in charge of the network and systems infrastructure at Les Cinémas Pathé Gaumont in Paris, France.
