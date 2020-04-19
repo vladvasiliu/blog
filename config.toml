@@ -6,7 +6,7 @@ preserveTaxonomyNames = true
 enableRobotsTXT = true
 enableEmoji = true
 theme = "even"
-enableGitInfo = false # use git commit log to generate lastmod record
+enableGitInfo = true # use git commit log to generate lastmod record
 
 # Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
 pygmentsOptions = "linenos=table"
@@ -18,7 +18,7 @@ hasCJKLanguage = false     # has chinese/japanese/korean ?
 paginate = 5
 disqusShortname = "vladvasiliu"
 googleAnalytics = "UA-37751901-1"
-copyright = "Copyright © 2019 Vlad Vasiliu; all rights reserved."            # default: author.name ↓
+copyright = "Vlad Vasiliu; all rights reserved."            # default: author.name ↓
 
 [author]                  # essential
   name = "Vlad Vasiliu"
