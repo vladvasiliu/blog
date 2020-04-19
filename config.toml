@@ -51,11 +51,11 @@ weight = 3
   url = "https://github.com/vladvasiliu"
 
 [[params.social]]
-  name = "BeHance"
+  name = "Behance"
   icon = "fab fa-behance-square"
   url = "https://www.behance.net/vvasiliu"
 
 [[params.social]]
-  name = "Portfolio"
+  name = "Photography"
   icon = "fas fa-camera"
   url = "https://photo.vladvasiliu.com"
