@@ -20,15 +20,15 @@ googleAnalytics = "UA-37751901-1"
     style = "manni"
 
 [params]
-	subtitle = "Useful tips and snippets"
+    subtitle = "Useful tips and snippets"
 
-	# Optional 80x80 avatar image.
-	avatar = "/img/avatar.png"
+    # Optional 80x80 avatar image.
+    avatar = "/img/avatar.png"
 
-	# Content types to disable Disqus on.
-	disableDisqusTypes = ["page"]
+    # Content types to disable Disqus on.
+    disableDisqusTypes = ["page"]
 
-	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+    # customCSS = "css/custom.css"  # Custom CSS applied to default styles.
 
 [[menu.main]]
 name = "Home"
