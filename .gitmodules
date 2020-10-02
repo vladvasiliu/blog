@@ -13,4 +13,4 @@
 [submodule "themes/hugo-vitae"]
 	path = themes/hugo-vitae
 	url = https://github.com/datacobra/hugo-vitae.git
-	branch = redesign
+	branch = master
