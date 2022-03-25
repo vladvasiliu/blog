@@ -14,3 +14,6 @@
 	path = themes/hugo-vitae
 	url = https://github.com/datacobra/hugo-vitae.git
 	branch = master
+[submodule "themes/anubis"]
+	path = themes/anubis
+	url = https://github.com/mitrichius/hugo-theme-anubis.git
