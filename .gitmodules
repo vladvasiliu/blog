@@ -12,7 +12,7 @@
 	branch = master
 [submodule "themes/hugo-vitae"]
 	path = themes/hugo-vitae
-	url = https://github.com/datacobra/hugo-vitae.git
+	url = https://github.com/dataCobra/hugo-vitae
 	branch = master
 [submodule "themes/anubis"]
 	path = themes/anubis

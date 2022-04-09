@@ -1,14 +1,20 @@
 baseURL = "https://vladvasiliu.com/"
 title = "vBlog"
 theme = "hugo-vitae"
-copyright = "© 2020 Vlad Vasiliu"
+copyright = "© 2022 Vlad Vasiliu"
 languageCode = "en"
 
 hasCJKLanguage = false
 enableRobotsTXT = true
 
-disqusShortname = "vladvasiliu"
-googleAnalytics = "UA-37751901-1"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+
+#disqusShortname = "vladvasiliu"
+#googleAnalytics = "UA-37751901-1"
 
 [markup]
   [markup.highlight]
@@ -17,7 +23,7 @@ googleAnalytics = "UA-37751901-1"
     guessSyntax = true
     lineNos = true
     lineNumbersInTable = true
-    style = "manni"
+    style = "monokai"
 
 [params]
     subtitle = "Useful tips and snippets"
@@ -29,6 +35,15 @@ googleAnalytics = "UA-37751901-1"
     disableDisqusTypes = ["page"]
 
     # customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+    hideAuthor = true
+
+[params.customjs]
+# enable Javascript by setting to true
+enabled = false
+
+[params.comments]
+# Enable Comments with "true"
+enabled = false
 
 [[menu.main]]
 name = "Home"
